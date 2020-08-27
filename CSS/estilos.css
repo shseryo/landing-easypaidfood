@@ -213,4 +213,49 @@ header .navbar-expand-lg {
     }
     /*responsive smarphone*/
 @media only screen and (max-width: 376px){
-  
+    
+    .nosotros .carousel1{
+        width: 90%;
+        margin-left: 8%;
+        padding: 20px 20px;
+    }
+    .servicios h2{
+        width: 46%;
+        position: absolute;
+        text-align: center;
+        margin-top: 125px;
+        color: #330000;
+        font-size: 15px;
+    }
+    .servicios img{
+        width: 50%;
+        max-width: 400px;
+        height: 100%;
+        max-height: 200px;
+        float: right;
+        clip-path: polygon(7% 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    #servicios .servicios {
+        background: rgba(255, 204, 0,.9);
+        height: 176px;
+        max-width: 95%;
+    }
+    .containerservicios .row .col img {
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        max-width: 140px;
+    }
+    .containerservicios .row-cols-2>* {
+        flex: 51%;
+        max-width: 70%;
+        margin-left: 70px;
+    }
+    .equipo .row-cols-3>* {
+        flex: 51%;
+        max-width: 70%;
+        margin-left: 60px;
+    }
+    .container-contacto .row-cols-3>* {
+        flex: 51%;
+        max-width: 87%;
