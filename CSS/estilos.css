@@ -47,11 +47,12 @@ header .navbar-expand-lg {
 }
 .nosotros .carousel1{
   
-    max-width: 35%;
+    ax-width: 70%;
     border: 2px solid #000;
-    padding: 17px 30px;
+    padding: 33px 33px;
     margin-bottom: 50px;
-    margin-left: 33%;   
+    margin: 0 35% 0;
+    margin-bottom: 100px;
 }
 /*servicios */
 #servicios .servicios{
@@ -159,3 +160,50 @@ header .navbar-expand-lg {
     max-width: 32%;
 
 }
+/*responsive tablet*/
+@media only screen and (max-width: 769px){
+    .nosotros .carousel1{
+        width: 83%;
+    margin-left: 9%;
+    padding: 40px 80px;
+     }
+    .contacto .row .col img{
+        padding: 20px;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+}
+/*responsive smarphone*/
+@media only screen and (max-width: 376px){
+  .container .carousel1{
+      width: 100%;
+      margin-left:  0%;
+    }
+    .container .row .col p{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .contacto{
+        padding: 30px;
+    }
+    .contacto h3{
+        text-align: center;
+        color: #fff;
+        padding: 10px;
+        width: 100%;
+        font-size: 25px;
+    }
+    .contacto .row .col img{
+        padding-top: 10px;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+    .contacto p {
+        text-align: center;
+        color: #fff;
+        padding: 10px;
+        width: 100%;
+        word-wrap: break-word;
+    }
